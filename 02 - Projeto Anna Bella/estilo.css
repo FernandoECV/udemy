@@ -10,3 +10,27 @@ body{
 	width: 900px; 
 
 }
+
+#menu {
+
+	background: #d2d2c1;
+	padding: 18px; 	
+}
+
+#conteudo{
+
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+a{
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.centralizar{
+
+	text-align: center;
+}

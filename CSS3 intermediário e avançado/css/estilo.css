@@ -63,9 +63,32 @@ h1+p {
 
 */
 
-/** Seletor de irmão geral */
+/** Seletor de irmão geral 
 
 h1~p {
 
 	color: pink;
+}
+
+*/
+
+/** Herança e Especificidade */
+
+* {
+	color: red;	
+}
+
+h2{					 /* Ordem de precedência (3) */
+
+	color: blue;
+}
+
+h2.verde{			  /* Ordem de precedência (2) */
+
+	color: green;
+}
+
+h2#amarelo{           /* Ordem de precedência (1) */
+
+	color: yellow;
 }

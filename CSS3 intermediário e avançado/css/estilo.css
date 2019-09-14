@@ -260,10 +260,10 @@ body{
 }
 
 #container{
-
-	width: 100%;
+	
+	width: 960px;
 	margin: 0 auto;
-	background: #fff;
+	background: #fff url(..imagens/coluna.png) repeat-y left top;
 	min-width: 720px;
 	max-width: 1280px;
 }
@@ -289,31 +289,31 @@ body{
 
 #conteudo{
 
-	border: 1px solid red;
+	
 	width: 75%;
 	float: right;
 }
 
 #navegacao{
 	
-	border: 1px solid red;
+	
 	width:23%;
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background: #d1d1d1;
+	/*background: #d1d1d1;*/
 }
 
 #conteudo-principal{
 
-	border: 1px solid red;
+	
 	width: 63%;
 	float: left;
 }
 
 img.img-noticia {
 
-	border: 1px solid red;
+	
 	width: 94%;
 	padding: 2%;
 	max-width: 600px;
@@ -321,7 +321,7 @@ img.img-noticia {
 
 #conteudo-secundario{
 
-	border: 1px solid red;
+	
 	width: 34%;
 	float: right;
 	background: #d1d1d1;

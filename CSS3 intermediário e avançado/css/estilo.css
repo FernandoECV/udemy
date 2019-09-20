@@ -253,6 +253,8 @@ ul #atual a {
 
 */
 
+/*
+
 body{
 
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -277,7 +279,7 @@ body{
 	line-height: 200px;
 }
 
-/*
+
 #imagem {
 
 	width: 90%;
@@ -285,7 +287,6 @@ body{
 	border: 1px solid red;
 }
 
-*/
 
 #conteudo{
 
@@ -301,7 +302,7 @@ body{
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	/*background: #d1d1d1;*/
+	background: #d1d1d1;
 }
 
 #conteudo-principal{
@@ -354,7 +355,48 @@ img.img-noticia {
 	padding: 5px;
 }
 
+*/
 
+/* ***** Estiliando tabelas ***** */
 
+body{
 
+	font-family: "Trebuchet MS", Helvetica, sans-serif;	
+}
+
+table{
+
+	width: 600px;
+	border-collapse: separate;  /*collapse */
+}
+
+th, td{
+
+	padding: 7px;
+}
+
+th{
+
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+tr.alternado {
+
+	background-color: #efefef;
+}
+
+tr:hover {
+
+	background-color: #c3e6e5;
+}
+
+.numero {
+
+	text-align: right;
+}
 

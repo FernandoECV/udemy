@@ -453,7 +453,7 @@ input.radio, input.checkbox, input.submit {
 
 */
 
-/* ***** Estilizando formulários parte 2 ***** */
+/* ***** Estilizando formulários parte 2 ***** 
 
 body{
 
@@ -522,5 +522,48 @@ input.submit{
 
 
 
+/* ***** Arredondamento com imagens ***** */
+
+.caixa{
+
+	width: 400px;
+	background: #dedede url(../imagens/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa h2{
+
+	padding: 10px 20px 0 20px;
+	background: url(../imagens/topo2.png) no-repeat left top;
+}
+
+.caixa p {
+
+	padding: 0 20px;
+}
+
+.caixa .ultimo{
+
+	background: url(../imagens/baixo2.png) no-repeat left bottom;
+	width: 400px;
+	height: 24px;
+}
+
+/*
+.caixa{
+
+	width: 400px;
+	background: #dedede url(../imagens/topo2.png) no-repeat left top;
+}
+
+.caixa h2{
+
+	padding: 10px 20px 0 20px;
+}
+
+.caixa p {
+
+	padding: 0px 20px 20px 20px;
+	background: #dedede url(../imagens/baixo2.png) no-repeat left bottom;
+}
 
 

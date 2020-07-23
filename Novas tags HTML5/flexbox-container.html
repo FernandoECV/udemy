@@ -38,7 +38,7 @@
 
         .item {
 
-            width: 100px;
+           /*width: 200px;*/
             height: 100px;
             margin: 10px;
             background: white;
@@ -46,21 +46,31 @@
 
             /* Define a proporção de espaço ocupado por um item*/
             flex-grow: 0;
+
+            /* Define a capacidade de redução de tamanho do item*/
+            flex-shrink: 1;
+
+            /*Indica o tamanho inicial do flex item antes da distribuição do espaço restante*/
+            flex-basis: 100px;
+
         }
 
         .item1 {
-
+ 
             /*flex-grow: 1;*/
+            /*flex-shrink: 1;*/
         }
 
         .item2 {
 
-            /*flex-grow: 2;*/
+            flex-grow: 1;
+            /*flex-shrink: 2;*/
         }
 
         .item3 {
 
-            /*flex-grow: 2;*/
+            flex-grow: 2;
+            /*flex-shrink: 5;*/
         }
 
         .ordem1 {
@@ -97,9 +107,9 @@
 
     <div id="conteudo">
 
-        <div class="item">01</div>
-        <div class="item">02</div>
-        <div class="item">03</div>
+        <div class="item item1">01</div>
+        <div class="item item2">02</div>
+        <div class="item item3">03</div>
         <div class="item">04</div>
 
     </div>
